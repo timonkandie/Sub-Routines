@@ -1,3 +1,8 @@
+GROUP MEMBERS
+ # Pheneas Lazarus  C026-01-0986/2025
+ # Timon Kandie     C026-01-0956/2025
+ # Victor Rutto     C026-01-0960/2025
+
 Scheduling Logic & Cooperative Execution
 
 The program uses a Round-Robin cooperative scheduler to manage multiple tea batches simultaneously.
