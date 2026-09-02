@@ -1,9 +1,9 @@
-GROUP MEMBERS
- # Pheneas Lazarus  C026-01-0986/2025
- # Timon Kandie     C026-01-0956/2025
- # Victor Rutto     C026-01-0960/2025
+# GROUP MEMBERS
+ ### Pheneas Lazarus  C026-01-0986/2025
+ ### Timon Kandie     C026-01-0956/2025
+ ### Victor Rutto     C026-01-0960/2025
 
-Scheduling Logic & Cooperative Execution
+# Scheduling Logic & Cooperative Execution
 
 The program uses a Round-Robin cooperative scheduler to manage multiple tea batches simultaneously.
 
@@ -13,7 +13,7 @@ The program uses a Round-Robin cooperative scheduler to manage multiple tea batc
 
     Safe Resumption: Before resuming a batch, the scheduler checks coroutine.status() to ensure it does not attempt to resume a "dead" (completed) coroutine. This allows active batches (like one stuck in the reprocessing loop) to continue executing safely while finished batches are ignored.
 
-Part (e): Coroutine State Persistence vs. Normal Functions
+# Part (e): Coroutine State Persistence vs. Normal Functions
 
 Requirement: Explain how coroutine state persistence simplifies the implementation compared with restarting a normal function.
 
